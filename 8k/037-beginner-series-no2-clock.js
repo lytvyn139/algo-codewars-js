@@ -6,18 +6,19 @@
 // Example:
 // past(0, 1, 1) == 61000
 // Input constraints: 0 <= h <= 23, 0 <= m <= 59, 0 <= s <= 59
-let time = (0, 1, 1);
+const h = 1;
+const m = 53;
+const s = 23;
 function past(h, m, s) {
-    let hourInMs = 3600000 * h;
-    console.log(hourInMs)
-
-    let minutesInSec = 60000 * m;
-    console.log(minutesInSec)
-
-    let secondsInMs = 1000 * s;
-    console.log(secondsInMs)
-    //let sum = hourInMs + minutesInSec + secondsInMs;
-    //console.log(sum)
-
+    const hourInMs = 3600000;
+    const minutesInSec = 60000;
+    const secondsInMs = 1000;
+    let result = (hourInMs * h) + (minutesInSec * m) + (secondsInMs * s);
+    return result;
 }
-console.log(past(time))
+console.log(past(h, m, s));
+
+
+// function past(h, m, s) {
+//     return ((h * 3600) + (m * 60) + s) * 1000;
+// }
