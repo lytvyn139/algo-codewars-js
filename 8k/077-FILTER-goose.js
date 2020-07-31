@@ -21,10 +21,11 @@ function gooseFilter(birds) {
 gooseFilter(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"])//["Mallard", "Hook Bill", "Crested", "Blue Swedish"]
 
 
-
+//filter two arrays
 function gooseFilter(birds) {
     var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
     return birds.filter(b => !geese.includes(b));
 };
-
+gooseFilter(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"])
+//["Mallard", "Hook Bill", "Crested", "Blue Swedish"]
 
