@@ -7,6 +7,7 @@ const xor = (a, b) => {
     if (a === true && b === false) return true
     if (a === true && b === true) return false
 }
+
 function xor(a, b) {
     return a != b;
 }
