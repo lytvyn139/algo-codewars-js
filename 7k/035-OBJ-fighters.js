@@ -27,7 +27,6 @@ function declareWinner(fighter1, fighter2, firstAttacker) {
         return fighter1.name;
 }
 
-
 function declareWinner(fighter1, fighter2, firstAttacker) {
     var fac1 = Math.ceil(fighter1.health / fighter2.damagePerAttack);
     var fac2 = Math.ceil(fighter2.health / fighter1.damagePerAttack);
