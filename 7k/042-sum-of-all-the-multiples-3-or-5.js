@@ -1,3 +1,4 @@
+//https://www.codewars.com/kata/57f36495c0bb25ecf50000e7
 /*
 Your task is to write function findSum.
 Upto and including n, this function will return the sum of all multiples of 3 and 5.

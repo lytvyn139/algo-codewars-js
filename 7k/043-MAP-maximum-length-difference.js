@@ -1,3 +1,4 @@
+//https://www.codewars.com/kata/5663f5305102699bad000056
 /* 
 You are given two arrays a1 and a2 of strings. 
 Each string is composed with letters from a to z. 

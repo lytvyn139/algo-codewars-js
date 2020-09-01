@@ -1,3 +1,4 @@
+//https://www.codewars.com/kata/559590633066759614000063
 /*
 Story
 Ben has a very simple idea to make some profit: he buys something and sells it again. Of course,
