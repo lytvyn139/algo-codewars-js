@@ -11,3 +11,9 @@ function removeDuplicateWords (s) {
 }
  console.log(removeDuplicateWords('alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta')); //, 'alpha beta gamma delta');)
  
+
+ const removeDuplicateWords2 = s => {
+  const set = new Set(s.split(' '));
+  return Array.from(set).join(' ');
+}
+console.log(removeDuplicateWords2('alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta')); //, 'alpha beta gamma delta');)
